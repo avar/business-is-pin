@@ -4,7 +4,7 @@ use strict;
 use base qw(Exporter);
 use List::Util qw(sum);
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 our %EXPORT_TAGS = (
     all => [ qw<
