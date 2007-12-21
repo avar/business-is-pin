@@ -1,0 +1,13 @@
+abstract: "Validate and process Icelandic PIN numbers (Icelandic: kennitE<ouml>lur)"
+author: "\xC3\x86var Arnfj\xC3\xB6r\xC3\xB0 Bjarmason <avar@cpan.org>"
+distribution_type: module
+generated_by: Module::Install version 0.64
+license: perl
+name: Business-IS-PIN
+no_index: 
+  directory: 
+    - inc
+    - t
+requires: 
+  List::Util: 0
+version: 0.04
