@@ -126,7 +126,7 @@ checksum digit.
 sub checksum
 {
     my $kt = ref $_[0] ? ${$_[0]} : $_[0];
-    my @num = unpack q<(A)*>, $kt;
+    my @num = split //, $kt;
 
     my $sum =
         sum
