@@ -4,6 +4,9 @@ Revision history for Perl extension Business::IS::PIN
 
 * Stopped using Module::Install in favour of ExtUtils::MakeMaker
 
+* Use split(//) not unpack('(A)*'). split is faster in 5.10 (yay me!)
+  and the unpack format doesn't work in 5.6p
+
 0.04 Wed Feb 21 2007
 
 * Renamed to Business::IS::PIN, Business::**:: is the usual place for
