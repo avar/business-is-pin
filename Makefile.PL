@@ -1,17 +1,12 @@
-use strict;
+use ExtUtils::MakeMaker;
 
-use inc::Module::Install;
-
-name 'Business-IS-PIN';
-
-author 'Ævar Arnfjörð Bjarmason <avar@cpan.org>';
-
-abstract_from 'PIN.pm';
-version_from  'PIN.pm';
-license_from  'PIN.pm';
-
-requires 'List::Util' => 0;
-
-auto_install;
-
-WriteAll;
+WriteMakefile(
+    NAME          => 'Business::IS::PIN',
+    AUTHOR        => 'Ævar Arnfjörð Bjarmason <avar@cpan.org>',
+    ABSTRACT_FROM => 'PIN.pm',
+    VERSION_FROM  => 'PIN.pm',
+    LICENSE       => 'perl',
+    PREREQ_PM     => {
+        'List::Util' => 0,
+    },
+);
