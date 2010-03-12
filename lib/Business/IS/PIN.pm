@@ -1,10 +1,8 @@
 package Business::IS::PIN;
 use strict;
 
-use base qw(Exporter);
+use Exporter 'import';
 use List::Util qw(sum);
-
-our $VERSION = '0.05';
 
 our %EXPORT_TAGS = (
     all => [ qw<
