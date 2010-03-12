@@ -16,6 +16,8 @@ our %EXPORT_TAGS = (
 
 our @EXPORT_OK = @{ $EXPORT_TAGS{ all } };
 
+=encoding utf8
+
 =head1 NAME
 
 Business::IS::PIN - Validate and process Icelandic PIN numbers (Icelandic: kennitE<ouml>lur)
